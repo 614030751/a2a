@@ -69,20 +69,8 @@ class ADKHostManager(ApplicationManager):
         self._context_to_conversation: dict[str, str] = {}
         self.user_id = 'test_user'
         self.app_name = 'A2A'
-        self.api_key = api_key or os.environ.get('GOOGLE_API_KEY', '')
-        self.uses_vertex_ai = (
-            uses_vertex_ai
-            or os.environ.get('GOOGLE_GENAI_USE_VERTEXAI', '').upper() == 'TRUE'
-        )
-
-        # Set environment variables based on auth method
-        if self.uses_vertex_ai:
-            os.environ['GOOGLE_GENAI_USE_VERTEXAI'] = 'TRUE'
-
-        elif self.api_key:
-            # Use API key authentication
-            os.environ['GOOGLE_GENAI_USE_VERTEXAI'] = 'FALSE'
-            os.environ['GOOGLE_API_KEY'] = self.api_key
+        self.api_key = api_key or os.environ.get('DEEPSEEK_API_KEY', '')
+        os.environ['DEEPSEEK_API_KEY'] = self.api_key
 
         self._initialize_host()
 
@@ -119,7 +107,7 @@ class ADKHostManager(ApplicationManager):
 
             # Only update if not using Vertex AI
             if not self.uses_vertex_ai:
-                os.environ['GOOGLE_API_KEY'] = api_key
+                os.environ['DEEPSEEK_API_KEY'] = api_key
                 # Reinitialize host with new API key
                 self._initialize_host()
 

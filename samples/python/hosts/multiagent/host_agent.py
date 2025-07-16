@@ -75,7 +75,7 @@ class HostAgent:
 
     def create_agent(self) -> Agent:
         return Agent(
-            model='gemini-2.0-flash-001',
+            model='deepseek/deepseek-chat-v3-0324',
             name='host_agent',
             instruction=self.root_instruction,
             before_model_callback=self.before_model_callback,
