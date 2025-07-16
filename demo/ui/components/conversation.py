@@ -84,6 +84,7 @@ async def send_message_button(e: me.ClickEvent):  # pylint: disable=unused-argum
     app_state = me.state(AppState)
     message_id = str(uuid.uuid4())
     app_state.background_tasks[message_id] = ''
+    yield
     await send_message(state.message_content, message_id)
     yield
 
