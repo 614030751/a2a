@@ -2,7 +2,7 @@ import json
 import random
 
 from collections.abc import AsyncIterable
-from typing import Any
+from typing import Any, Dict, Optional
 
 from google.adk.agents.llm_agent import LlmAgent
 from google.adk.artifacts import InMemoryArtifactService
@@ -18,10 +18,10 @@ request_ids = set()
 
 
 def create_request_form(
-    date: str | None = None,
-    amount: str | None = None,
-    purpose: str | None = None,
-) -> dict[str, Any]:
+    date: Optional[str] = None,
+    amount: Optional[str] = None,
+    purpose: Optional[str] = None,
+) -> Dict[str, Any]:
     """Create a request form for the employee to fill out.
 
     Args:
@@ -30,7 +30,7 @@ def create_request_form(
         purpose (str): The purpose of the request. Can be an empty string.
 
     Returns:
-        dict[str, Any]: A dictionary containing the request form data.
+        Dict[str, Any]: A dictionary containing the request form data.
     """
     request_id = 'request_id_' + str(random.randint(1000000, 9999999))
     request_ids.add(request_id)
@@ -45,19 +45,19 @@ def create_request_form(
 
 
 def return_form(
-    form_request: dict[str, Any],
+    form_request: Dict[str, Any],
     tool_context: ToolContext,
-    instructions: str | None = None,
-) -> dict[str, Any]:
+    instructions: Optional[str] = None,
+) -> Dict[str, Any]:
     """Returns a structured json object indicating a form to complete.
 
     Args:
-        form_request (dict[str, Any]): The request form data.
+        form_request (Dict[str, Any]): The request form data.
         tool_context (ToolContext): The context in which the tool operates.
         instructions (str): Instructions for processing the form. Can be an empty string.
 
     Returns:
-        dict[str, Any]: A JSON dictionary for the form response.
+        Dict[str, Any]: A JSON dictionary for the form response.
     """
     if isinstance(form_request, str):
         form_request = json.loads(form_request)
@@ -100,7 +100,7 @@ def return_form(
     return json.dumps(form_dict)
 
 
-def reimburse(request_id: str) -> dict[str, Any]:
+def reimburse(request_id: str) -> Dict[str, Any]:
     """Reimburse the amount of money to the employee for a given request_id."""
     if request_id not in request_ids:
         return {
@@ -167,7 +167,7 @@ class ReimbursementAgent:
             ],
         )
 
-    async def stream(self, query, session_id) -> AsyncIterable[dict[str, Any]]:
+    async def stream(self, query, session_id) -> AsyncIterable[Dict[str, Any]]:
         session = await self._runner.session_service.get_session(
             app_name=self._agent.name,
             user_id=self._user_id,

@@ -42,6 +42,11 @@ def hello_mcp(context) -> None:
             "propertyName": "currency_to",
             "propertyType": "string",
             "description": "Currency code to convert to, e.g. EUR or INR"
+        },
+        {
+            "propertyName": "amount",
+            "propertyType": "number",
+            "description": "The amount to convert. Defaults to 1."
         }
     ]""",
 )
@@ -52,12 +57,13 @@ def get_exchange_rate(context) -> str:
 
         currency_from = arguments.get('currency_from')
         currency_to = arguments.get('currency_to')
+        amount = arguments.get('amount', 1)
         logging.info(
-            f'Currency conversion from {currency_from} to {currency_to}'
+            f'Currency conversion from {currency_from} to {currency_to} for amount {amount}'
         )
         response = httpx.get(
             'https://api.frankfurter.app/latest',
-            params={'from': currency_from, 'to': currency_to},
+            params={'from': currency_from, 'to': currency_to, 'amount': amount},
             timeout=10.0,
         )
         response.raise_for_status()
@@ -67,6 +73,9 @@ def get_exchange_rate(context) -> str:
                 f'Could not retrieve rate for {currency_from} to {currency_to}'
             )
         rate = data['rates'][currency_to]
-        return f'1 {currency_from} = {rate} {currency_to}'
+        if amount == 1:
+            return f'1 {currency_from} = {rate} {currency_to}'
+        else:
+            return f'{amount} {currency_from} = {rate} {currency_to}'
     except Exception as e:
         return f'Currency API call failed: {e!s}'
