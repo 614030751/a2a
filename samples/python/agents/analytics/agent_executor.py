@@ -1,8 +1,11 @@
+import logging
+
 from a2a.server.agent_execution import AgentExecutor, RequestContext
 from a2a.server.events import EventQueue
 from a2a.types import (
     FilePart,
     FileWithBytes,
+    InternalError,
     InvalidParamsError,
     Part,
     Task,
@@ -26,6 +29,7 @@ class ChartGenerationAgentExecutor(AgentExecutor):
         context: RequestContext,
         event_queue: EventQueue,
     ) -> None:
+        logging.getLogger(__name__).warning(">>>> EXECUTING WITH THE NEW CODE <<<<")
         error = self._validate_request(context)
         if error:
             raise ServerError(error=InvalidParamsError())
@@ -34,12 +38,13 @@ class ChartGenerationAgentExecutor(AgentExecutor):
         try:
             result = self.agent.invoke(query, context.context_id)
         except Exception as e:
+            logging.error(f"CAUGHT EXCEPTION IN AGENT_EXECUTOR: {type(e).__name__}: {e}", exc_info=True)
             raise ServerError(
-                error=ValueError(f'Error invoking agent: {e}')
+                error=InternalError(message=f'Error invoking agent: {e}')
             ) from e
 
         data = self.agent.get_image_data(
-            session_id=context.context_id, image_key=result.raw
+            session_id=context.context_id, image_key=result
         )
         if data and not data.error:
             parts = [
@@ -60,7 +65,7 @@ class ChartGenerationAgentExecutor(AgentExecutor):
                     root=TextPart(
                         text=data.error
                         if data
-                        else 'Failed to generate chart image.'
+                        else f'Failed to generate chart image. Got invalid image key: {result}'
                     ),
                 )
             ]

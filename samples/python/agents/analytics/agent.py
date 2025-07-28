@@ -13,6 +13,7 @@ from crewai import Agent, Crew, Task
 from crewai.process import Process
 from crewai.tools import tool
 from dotenv import load_dotenv
+from langchain_google_genai import ChatGoogleGenerativeAI
 from pydantic import BaseModel
 from utils import cache
 
@@ -94,6 +95,11 @@ class ChartGenerationAgent:
     SUPPORTED_CONTENT_TYPES = ['text', 'text/plain', 'image/png']
 
     def __init__(self):
+        llm = ChatGoogleGenerativeAI(
+            model="gemini-pro",
+            verbose=True,
+            temperature=0.1,
+        )
         self.chart_creator_agent = Agent(
             role='Chart Creation Expert',
             goal='Generate a bar chart image based on structured CSV input.',
@@ -101,6 +107,7 @@ class ChartGenerationAgent:
             verbose=False,
             allow_delegation=False,
             tools=[generate_chart_tool],
+            llm=llm,
         )
 
         self.chart_creation_task = Task(

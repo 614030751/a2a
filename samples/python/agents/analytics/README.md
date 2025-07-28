@@ -70,10 +70,10 @@ sequenceDiagram
    cd samples/python/agents/analytics
    ```
 
-2. Create an environment file with your API key (or Vertex AI credentials):
+2. Create an environment file with your API key:
 
    ```bash
-   echo "OPENAI_API_KEY=your_openai_key_here" > .env
+   echo "GOOGLE_API_KEY=your_google_key_here" > .env
    ```
 
 3. Set up the Python environment:
@@ -118,7 +118,7 @@ sequenceDiagram
 **Features:**
 
 - Text-to-chart-image generation using Google Gemini and Matplotlib
-- Support for OpenAI and Gemini LLMs
+- Support for Gemini LLMs
 - Robust error handling with automatic retries
 - Optional file-based cache persistence
 - Improved artifact ID extraction from queries
@@ -136,7 +136,6 @@ sequenceDiagram
 
 - [A2A Protocol Documentation](https://google.github.io/A2A/#/documentation)
 - [CrewAI Documentation](https://docs.crewai.com/introduction)
-- [Google Gemini API](https://ai.google.dev/gemini-api)
 - [Matplotlib Documentation](https://matplotlib.org/stable/index.html)
 
 ---

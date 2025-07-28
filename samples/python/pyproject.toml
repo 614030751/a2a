@@ -37,6 +37,11 @@ members = [
     "agents/veo_video_gen",
     "agents/dice_agent_grpc",
     "agents/ag2",
+    "agents/adk_news",
+    "agents/adk_weather",
+    "agents/adk_story",
+    "agents/adk_calculator",
+    "agents/adk_vision"
 ]
 
 [tool.uv.sources]

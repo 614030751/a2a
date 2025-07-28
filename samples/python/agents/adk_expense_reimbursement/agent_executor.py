@@ -34,8 +34,6 @@ class ReimbursementAgentExecutor(AgentExecutor):
         query = context.get_user_input()
         task = context.current_task
 
-        # This agent always produces Task objects. If this request does
-        # not have current task, create a new one and use it.
         if not task:
             task = new_task(context.message)
             await event_queue.enqueue_event(task)

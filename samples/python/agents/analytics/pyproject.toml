@@ -9,4 +9,5 @@ dependencies = [
     "matplotlib>=3.8.0",
     "pandas>=2.1.0",
     "a2a-sdk>=0.2.5",
+    "langchain-google-genai>=1.0.0",
 ]
