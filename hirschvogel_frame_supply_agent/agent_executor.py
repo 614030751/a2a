@@ -1,0 +1,62 @@
+import json
+
+from a2a.server.agent_execution import AgentExecutor, RequestContext
+from a2a.server.events import EventQueue
+from a2a.server.tasks import TaskUpdater
+from a2a.types import (
+    Part,
+    Task,
+    TaskState,
+    TextPart,
+    UnsupportedOperationError,
+)
+from a2a.utils import (
+    new_agent_text_message,
+    new_task,
+)
+from a2a.utils.errors import ServerError
+from agent import HirschvogelFrameSupplyAgent
+
+
+class HirschvogelFrameSupplyAgentExecutor(AgentExecutor):
+    """赫尔施福格车架供应代理的执行器。"""
+
+    def __init__(self):
+        self.agent = HirschvogelFrameSupplyAgent()
+
+    async def execute(
+        self,
+        context: RequestContext,
+        event_queue: EventQueue,
+    ) -> None:
+        """
+        执行代理的核心逻辑。
+        """
+        query = context.get_user_input()
+        task = context.current_task
+
+        if not task:
+            task = new_task(context.message)
+            await event_queue.enqueue_event(task)
+        updater = TaskUpdater(event_queue, task.id, task.context_id)
+
+        async for item in self.agent.stream(query, task.context_id):
+            if not item['is_task_complete']:
+                await updater.update_status(
+                    TaskState.working,
+                    new_agent_text_message(
+                        item['content'], task.context_id, task.id
+                    ),
+                )
+                continue
+            
+            await updater.add_artifact(
+                [Part(root=TextPart(text=item['content']))], name='gestamp_frame_supply_result'
+            )
+            await updater.complete()
+            break
+
+    async def cancel(
+        self, request: RequestContext, event_queue: EventQueue
+    ) -> Task | None:
+        raise ServerError(error=UnsupportedOperationError())

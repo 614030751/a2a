@@ -1,0 +1,40 @@
+INFO:     Started server process [57213]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8024 (Press CTRL+C to quit)
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:45234 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:53572 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:47528 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     47.253.34.98:53450 - "GET / HTTP/1.1" 404 Not Found
+INFO:     47.253.34.98:46022 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     47.253.34.98:46030 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     47.253.34.98:46046 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     47.253.34.98:46058 - "GET /sse HTTP/1.1" 404 Not Found
+INFO:     47.253.34.98:46060 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     47.253.34.98:46064 - "GET /mcp-sse HTTP/1.1" 404 Not Found
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:55202 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:48656 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:48668 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+INFO:     124.156.181.138:35511 - "POST /AgentApi/getmessages HTTP/1.1" 307 Temporary Redirect
+INFO:     124.156.181.138:45877 - "POST /AgentApi/getmessages/ HTTP/1.1" 400 Bad Request
+INFO:     54.158.89.194:44854 - "GET /AgentApi/getmessages HTTP/1.1" 307 Temporary Redirect
+INFO:     54.158.89.194:44856 - "GET /AgentApi/getmessages/ HTTP/1.1" 405 Method Not Allowed
+INFO:     Started server process [346546]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8024 (Press CTRL+C to quit)
+/home/ubuntu/a2a/tire_summary_agent/.venv/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.29.3 is exactly one major version older than the runtime version 6.31.1 at a2a.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+INFO:     Started server process [488690]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8024 (Press CTRL+C to quit)
+INFO:     124.156.181.138:41535 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.

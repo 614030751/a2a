@@ -1,0 +1,309 @@
+INFO:     Started server process [3306816]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:10801 (Press CTRL+C to quit)
+INFO:     192.168.2.26:25324 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     192.168.2.26:27496 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     192.168.2.26:27506 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     192.168.2.26:27964 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     192.168.2.26:28650 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     192.168.2.26:28928 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     192.168.2.26:29074 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     192.168.2.26:29086 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     192.168.2.26:29110 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     192.168.2.26:4182 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+INFO:     Started server process [3416932]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:10802 (Press CTRL+C to quit)
+INFO:     Started server process [3421159]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:10802 (Press CTRL+C to quit)
+INFO:     192.168.2.122:63208 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+INFO:     192.168.2.248:57956 - "GET / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     192.168.2.248:60098 - "GET / HTTP/1.1" 405 Method Not Allowed
+INFO:     192.168.2.122:63603 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     192.168.2.26:64012 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     192.168.2.26:64964 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     192.168.2.26:65104 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+/home/ubuntu/a2a/plan_agent/.venv/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.29.3 is exactly one major version older than the runtime version 6.31.1 at a2a.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+INFO:     Started server process [50258]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8020 (Press CTRL+C to quit)
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:46350 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:55284 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:55474 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:55484 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     3.131.215.38:54068 - "GET / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     3.131.215.38:49720 - "GET / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     47.104.192.131:50084 - "GET / HTTP/1.1" 405 Method Not Allowed
+INFO:     47.104.192.131:37134 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     47.104.192.131:37142 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     47.104.192.131:37144 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     47.104.192.131:37154 - "GET /sse HTTP/1.1" 404 Not Found
+INFO:     47.104.192.131:37162 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     47.104.192.131:37178 - "GET /mcp-sse HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.60:37708 - "GET / HTTP/1.1" 405 Method Not Allowed
+INFO:     167.94.146.60:47420 - "GET / HTTP/1.1" 405 Method Not Allowed
+INFO:     167.94.146.60:47424 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.60:47512 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.146.60:47572 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.146.60:36962 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:39484 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:33700 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+INFO:     216.218.206.67:42754 - "GET / HTTP/1.1" 405 Method Not Allowed
+INFO:     216.218.206.67:63492 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     195.184.76.23:53639 - "GET / HTTP/1.1" 405 Method Not Allowed
+INFO:     195.184.76.213:44201 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     205.210.31.98:58818 - "GET / HTTP/1.1" 405 Method Not Allowed
+INFO:     114.26.133.251:14237 - "POST /AgentApi/getmessages HTTP/1.1" 404 Not Found
+INFO:     114.26.133.251:17131 - "POST /AgentApi/getmessages HTTP/1.1" 404 Not Found
+/home/ubuntu/a2a/plan_agent/.venv/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.29.3 is exactly one major version older than the runtime version 6.31.1 at a2a.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+INFO:     Started server process [323957]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8020 (Press CTRL+C to quit)
+INFO:     124.156.181.138:37461 - "POST /AgentApi/getmessages HTTP/1.1" 307 Temporary Redirect
+INFO:__main__:Received query: '我要计划生产200辆汽车' for session: 064cfb27-df75-4422-afbf-4bd19b5645d5
+INFO:     124.156.181.138:40861 - "POST /AgentApi/getmessages/ HTTP/1.1" 200 OK
+INFO:google_adk.google.adk.models.google_llm:Sending out request, model: gemini-1.5-pro, backend: GoogleLLMVariant.GEMINI_API, stream: False
+INFO:google_genai.models:AFC is enabled with max remote calls: 10.
+INFO:httpx:HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+INFO:google_adk.google.adk.models.google_llm:Response received from the model.
+WARNING:  Unsupported upgrade request.
+INFO:     127.0.0.1:44354 - "POST / HTTP/1.1" 404 Not Found
+WARNING:  Unsupported upgrade request.
+INFO:     127.0.0.1:49492 - "POST / HTTP/1.1" 404 Not Found
+INFO:     124.156.181.138:44563 - "POST /AgentApi/getmessages HTTP/1.1" 307 Temporary Redirect
+INFO:__main__:Received query: '帮我生产100辆汽车' for session: 064cfb27-df75-4422-afbf-4bd19b5645d5
+INFO:     124.156.181.138:39663 - "POST /AgentApi/getmessages/ HTTP/1.1" 200 OK
+INFO:google_adk.google.adk.models.google_llm:Sending out request, model: gemini-1.5-pro, backend: GoogleLLMVariant.GEMINI_API, stream: False
+INFO:google_genai.models:AFC is enabled with max remote calls: 10.
+INFO:httpx:HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+INFO:google_adk.google.adk.models.google_llm:Response received from the model.
+/home/ubuntu/a2a/plan_agent/.venv/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.29.3 is exactly one major version older than the runtime version 6.31.1 at a2a.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+INFO:     Started server process [465186]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8020 (Press CTRL+C to quit)
+INFO:google_adk.google.adk.models.google_llm:Sending out request, model: gemini-1.5-pro, backend: GoogleLLMVariant.GEMINI_API, stream: False
+INFO:google_genai.models:AFC is enabled with max remote calls: 10.
+INFO:httpx:HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+INFO:google_adk.google.adk.models.google_llm:Response received from the model.
+INFO:     212.107.29.198:52662 - "POST / HTTP/1.1" 200 OK
+INFO:google_adk.google.adk.models.google_llm:Sending out request, model: gemini-1.5-pro, backend: GoogleLLMVariant.GEMINI_API, stream: False
+INFO:google_genai.models:AFC is enabled with max remote calls: 10.
+INFO:httpx:HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+INFO:google_adk.google.adk.models.google_llm:Response received from the model.
+INFO:     212.107.29.198:39260 - "POST / HTTP/1.1" 200 OK
+INFO:google_adk.google.adk.models.google_llm:Sending out request, model: gemini-1.5-pro, backend: GoogleLLMVariant.GEMINI_API, stream: False
+INFO:google_genai.models:AFC is enabled with max remote calls: 10.
+INFO:httpx:HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+INFO:google_adk.google.adk.models.google_llm:Response received from the model.
+INFO:     212.107.29.198:12890 - "POST / HTTP/1.1" 200 OK
+INFO:google_adk.google.adk.models.google_llm:Sending out request, model: gemini-1.5-pro, backend: GoogleLLMVariant.GEMINI_API, stream: False
+INFO:google_genai.models:AFC is enabled with max remote calls: 10.
+INFO:httpx:HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+INFO:google_adk.google.adk.models.google_llm:Response received from the model.
+INFO:     212.107.29.198:15346 - "POST / HTTP/1.1" 200 OK
+Traceback (most recent call last):
+  File "/home/ubuntu/a2a/plan_agent/.venv/lib/python3.12/site-packages/a2a/server/apps/jsonrpc/jsonrpc_app.py", line 205, in _handle_requests
+    a2a_request = A2ARequest.model_validate(body)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/a2a/plan_agent/.venv/lib/python3.12/site-packages/pydantic/main.py", line 705, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 19 validation errors for A2ARequest
+SendMessageRequest.method
+  Input should be 'message/send' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+SendStreamingMessageRequest.method
+  Input should be 'message/stream' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+GetTaskRequest.params.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+CancelTaskRequest.params.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+SetTaskPushNotificationConfigRequest.method
+  Input should be 'tasks/pushNotificationConfig/set' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+SetTaskPushNotificationConfigRequest.params.pushNotificationConfig
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+SetTaskPushNotificationConfigRequest.params.taskId
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+GetTaskPushNotificationConfigRequest.method
+  Input should be 'tasks/pushNotificationConfig/get' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+GetTaskPushNotificationConfigRequest.params.TaskIdParams.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+GetTaskPushNotificationConfigRequest.params.GetTaskPushNotificationConfigParams.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+TaskResubscriptionRequest.method
+  Input should be 'tasks/resubscribe' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+TaskResubscriptionRequest.params.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+ListTaskPushNotificationConfigRequest.method
+  Input should be 'tasks/pushNotificationConfig/list' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+ListTaskPushNotificationConfigRequest.params.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+DeleteTaskPushNotificationConfigRequest.method
+  Input should be 'tasks/pushNotificationConfig/delete' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+DeleteTaskPushNotificationConfigRequest.params.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+DeleteTaskPushNotificationConfigRequest.params.pushNotificationConfigId
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+WARNING:a2a.server.apps.jsonrpc.jsonrpc_app:Request Error (ID: None): Code=-32600, Message='Request payload validation error', Data=[{'type': 'literal_error', 'loc': ['SendMessageRequest', 'method'], 'msg': "Input should be 'message/send'", 'input': 'agent.message.send', 'ctx': {'expected': "'message/send'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'literal_error', 'loc': ['SendStreamingMessageRequest', 'method'], 'msg': "Input should be 'message/stream'", 'input': 'agent.message.send', 'ctx': {'expected': "'message/stream'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'literal_error', 'loc': ['GetTaskRequest', 'method'], 'msg': "Input should be 'tasks/get'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/get'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['GetTaskRequest', 'params', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '9dcdca95-e381-4fe4-b519-d9c1997dd4ea', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'literal_error', 'loc': ['CancelTaskRequest', 'method'], 'msg': "Input should be 'tasks/cancel'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/cancel'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['CancelTaskRequest', 'params', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '9dcdca95-e381-4fe4-b519-d9c1997dd4ea', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'literal_error', 'loc': ['SetTaskPushNotificationConfigRequest', 'method'], 'msg': "Input should be 'tasks/pushNotificationConfig/set'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/pushNotificationConfig/set'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['SetTaskPushNotificationConfigRequest', 'params', 'pushNotificationConfig'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '9dcdca95-e381-4fe4-b519-d9c1997dd4ea', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'missing', 'loc': ['SetTaskPushNotificationConfigRequest', 'params', 'taskId'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '9dcdca95-e381-4fe4-b519-d9c1997dd4ea', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'literal_error', 'loc': ['GetTaskPushNotificationConfigRequest', 'method'], 'msg': "Input should be 'tasks/pushNotificationConfig/get'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/pushNotificationConfig/get'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['GetTaskPushNotificationConfigRequest', 'params', 'TaskIdParams', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '9dcdca95-e381-4fe4-b519-d9c1997dd4ea', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'missing', 'loc': ['GetTaskPushNotificationConfigRequest', 'params', 'GetTaskPushNotificationConfigParams', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '9dcdca95-e381-4fe4-b519-d9c1997dd4ea', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'literal_error', 'loc': ['TaskResubscriptionRequest', 'method'], 'msg': "Input should be 'tasks/resubscribe'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/resubscribe'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['TaskResubscriptionRequest', 'params', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '9dcdca95-e381-4fe4-b519-d9c1997dd4ea', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'literal_error', 'loc': ['ListTaskPushNotificationConfigRequest', 'method'], 'msg': "Input should be 'tasks/pushNotificationConfig/list'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/pushNotificationConfig/list'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['ListTaskPushNotificationConfigRequest', 'params', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '9dcdca95-e381-4fe4-b519-d9c1997dd4ea', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'literal_error', 'loc': ['DeleteTaskPushNotificationConfigRequest', 'method'], 'msg': "Input should be 'tasks/pushNotificationConfig/delete'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/pushNotificationConfig/delete'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['DeleteTaskPushNotificationConfigRequest', 'params', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '9dcdca95-e381-4fe4-b519-d9c1997dd4ea', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'missing', 'loc': ['DeleteTaskPushNotificationConfigRequest', 'params', 'pushNotificationConfigId'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '9dcdca95-e381-4fe4-b519-d9c1997dd4ea', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}]
+INFO:     212.107.29.198:56992 - "POST / HTTP/1.1" 200 OK
+Traceback (most recent call last):
+  File "/home/ubuntu/a2a/plan_agent/.venv/lib/python3.12/site-packages/a2a/server/apps/jsonrpc/jsonrpc_app.py", line 205, in _handle_requests
+    a2a_request = A2ARequest.model_validate(body)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ubuntu/a2a/plan_agent/.venv/lib/python3.12/site-packages/pydantic/main.py", line 705, in model_validate
+    return cls.__pydantic_validator__.validate_python(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+pydantic_core._pydantic_core.ValidationError: 19 validation errors for A2ARequest
+SendMessageRequest.method
+  Input should be 'message/send' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+SendStreamingMessageRequest.method
+  Input should be 'message/stream' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+GetTaskRequest.method
+  Input should be 'tasks/get' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+GetTaskRequest.params.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+CancelTaskRequest.method
+  Input should be 'tasks/cancel' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+CancelTaskRequest.params.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+SetTaskPushNotificationConfigRequest.method
+  Input should be 'tasks/pushNotificationConfig/set' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+SetTaskPushNotificationConfigRequest.params.pushNotificationConfig
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+SetTaskPushNotificationConfigRequest.params.taskId
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+GetTaskPushNotificationConfigRequest.method
+  Input should be 'tasks/pushNotificationConfig/get' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+GetTaskPushNotificationConfigRequest.params.TaskIdParams.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+GetTaskPushNotificationConfigRequest.params.GetTaskPushNotificationConfigParams.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+TaskResubscriptionRequest.method
+  Input should be 'tasks/resubscribe' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+TaskResubscriptionRequest.params.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+ListTaskPushNotificationConfigRequest.method
+  Input should be 'tasks/pushNotificationConfig/list' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+ListTaskPushNotificationConfigRequest.params.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+DeleteTaskPushNotificationConfigRequest.method
+  Input should be 'tasks/pushNotificationConfig/delete' [type=literal_error, input_value='agent.message.send', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+DeleteTaskPushNotificationConfigRequest.params.id
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+DeleteTaskPushNotificationConfigRequest.params.pushNotificationConfigId
+  Field required [type=missing, input_value={'message': {'kind': 'mes...200个轮胎给我'}]}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+WARNING:a2a.server.apps.jsonrpc.jsonrpc_app:Request Error (ID: None): Code=-32600, Message='Request payload validation error', Data=[{'type': 'literal_error', 'loc': ['SendMessageRequest', 'method'], 'msg': "Input should be 'message/send'", 'input': 'agent.message.send', 'ctx': {'expected': "'message/send'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'literal_error', 'loc': ['SendStreamingMessageRequest', 'method'], 'msg': "Input should be 'message/stream'", 'input': 'agent.message.send', 'ctx': {'expected': "'message/stream'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'literal_error', 'loc': ['GetTaskRequest', 'method'], 'msg': "Input should be 'tasks/get'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/get'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['GetTaskRequest', 'params', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '06188bb8-fba6-492f-aafa-7cf0b89cecc6', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'literal_error', 'loc': ['CancelTaskRequest', 'method'], 'msg': "Input should be 'tasks/cancel'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/cancel'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['CancelTaskRequest', 'params', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '06188bb8-fba6-492f-aafa-7cf0b89cecc6', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'literal_error', 'loc': ['SetTaskPushNotificationConfigRequest', 'method'], 'msg': "Input should be 'tasks/pushNotificationConfig/set'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/pushNotificationConfig/set'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['SetTaskPushNotificationConfigRequest', 'params', 'pushNotificationConfig'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '06188bb8-fba6-492f-aafa-7cf0b89cecc6', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'missing', 'loc': ['SetTaskPushNotificationConfigRequest', 'params', 'taskId'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '06188bb8-fba6-492f-aafa-7cf0b89cecc6', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'literal_error', 'loc': ['GetTaskPushNotificationConfigRequest', 'method'], 'msg': "Input should be 'tasks/pushNotificationConfig/get'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/pushNotificationConfig/get'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['GetTaskPushNotificationConfigRequest', 'params', 'TaskIdParams', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '06188bb8-fba6-492f-aafa-7cf0b89cecc6', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'missing', 'loc': ['GetTaskPushNotificationConfigRequest', 'params', 'GetTaskPushNotificationConfigParams', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '06188bb8-fba6-492f-aafa-7cf0b89cecc6', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'literal_error', 'loc': ['TaskResubscriptionRequest', 'method'], 'msg': "Input should be 'tasks/resubscribe'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/resubscribe'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['TaskResubscriptionRequest', 'params', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '06188bb8-fba6-492f-aafa-7cf0b89cecc6', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'literal_error', 'loc': ['ListTaskPushNotificationConfigRequest', 'method'], 'msg': "Input should be 'tasks/pushNotificationConfig/list'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/pushNotificationConfig/list'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['ListTaskPushNotificationConfigRequest', 'params', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '06188bb8-fba6-492f-aafa-7cf0b89cecc6', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'literal_error', 'loc': ['DeleteTaskPushNotificationConfigRequest', 'method'], 'msg': "Input should be 'tasks/pushNotificationConfig/delete'", 'input': 'agent.message.send', 'ctx': {'expected': "'tasks/pushNotificationConfig/delete'"}, 'url': 'https://errors.pydantic.dev/2.11/v/literal_error'}, {'type': 'missing', 'loc': ['DeleteTaskPushNotificationConfigRequest', 'params', 'id'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '06188bb8-fba6-492f-aafa-7cf0b89cecc6', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}, {'type': 'missing', 'loc': ['DeleteTaskPushNotificationConfigRequest', 'params', 'pushNotificationConfigId'], 'msg': 'Field required', 'input': {'message': {'kind': 'message', 'role': 'user', 'messageId': '06188bb8-fba6-492f-aafa-7cf0b89cecc6', 'parts': [{'kind': 'text', 'text': '生产200个轮胎给我'}]}}, 'url': 'https://errors.pydantic.dev/2.11/v/missing'}]
+INFO:     212.107.29.198:22368 - "POST / HTTP/1.1" 200 OK
+INFO:google_adk.google.adk.models.google_llm:Sending out request, model: gemini-1.5-pro, backend: GoogleLLMVariant.GEMINI_API, stream: False
+INFO:google_genai.models:AFC is enabled with max remote calls: 10.
+INFO:httpx:HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+INFO:google_adk.google.adk.models.google_llm:Response received from the model.
+INFO:     212.107.29.198:4712 - "POST / HTTP/1.1" 200 OK
+INFO:google_adk.google.adk.models.google_llm:Sending out request, model: gemini-1.5-pro, backend: GoogleLLMVariant.GEMINI_API, stream: False
+INFO:google_genai.models:AFC is enabled with max remote calls: 10.
+INFO:httpx:HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro:generateContent "HTTP/1.1 200 OK"
+INFO:google_adk.google.adk.models.google_llm:Response received from the model.
+INFO:     212.107.29.198:65070 - "POST / HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     91.231.89.6:53953 - "GET / HTTP/1.1" 405 Method Not Allowed
+INFO:     91.231.89.85:37393 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     184.105.247.252:64108 - "GET / HTTP/1.1" 405 Method Not Allowed
+INFO:     184.105.247.252:16104 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     3.134.148.59:57204 - "GET / HTTP/1.1" 405 Method Not Allowed
+INFO:     3.134.148.59:57208 - "GET / HTTP/1.1" 405 Method Not Allowed
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.112:39322 - "GET / HTTP/1.1" 405 Method Not Allowed
+INFO:     167.94.138.112:39324 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.112:51870 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     167.94.138.112:51880 - "PRI %2A HTTP/2.0" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.94.138.112:35946 - "GET /.well-known/security.txt HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     205.210.31.47:59678 - "GET / HTTP/1.1" 405 Method Not Allowed

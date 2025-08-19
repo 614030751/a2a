@@ -1,0 +1,62 @@
+INFO:     Started server process [3438918]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:10809 (Press CTRL+C to quit)
+INFO:     Started server process [62207]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8027 (Press CTRL+C to quit)
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:56948 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:35804 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:60402 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:39790 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     47.253.47.101:39632 - "GET / HTTP/1.1" 404 Not Found
+INFO:     47.253.47.101:39648 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     47.253.47.101:39650 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     47.253.47.101:39660 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     47.253.47.101:39662 - "GET /sse HTTP/1.1" 404 Not Found
+INFO:     47.253.47.101:39676 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     47.253.47.101:39688 - "GET /mcp-sse HTTP/1.1" 404 Not Found
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:58678 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:59942 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:59952 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+INFO:     38.181.81.167:6350 - "POST /AgentApi/getmessages/ HTTP/1.1" 400 Bad Request
+INFO:     38.181.81.167:18552 - "POST /AgentApi/getmessages/ HTTP/1.1" 400 Bad Request
+INFO:     38.181.81.167:37540 - "POST /AgentApi/getmessages/ HTTP/1.1" 400 Bad Request
+INFO:     38.181.81.167:30700 - "POST /AgentApi/getmessages/ HTTP/1.1" 400 Bad Request
+INFO:     38.181.81.167:36558 - "POST /AgentApi/getmessages/ HTTP/1.1" 400 Bad Request
+INFO:     38.181.81.167:36564 - "POST /AgentApi/getmessages/ HTTP/1.1" 400 Bad Request
+INFO:     38.181.81.167:33698 - "POST /AgentApi/getmessages/ HTTP/1.1" 400 Bad Request
+INFO:     38.181.81.167:63184 - "POST /AgentApi/getmessages/ HTTP/1.1" 400 Bad Request
+INFO:     38.181.81.167:57720 - "POST /AgentApi/getmessages/ HTTP/1.1" 400 Bad Request
+INFO:     Started server process [404118]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8027 (Press CTRL+C to quit)
+/home/ubuntu/a2a/frame_trade_agent/.venv/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.29.3 is exactly one major version older than the runtime version 6.31.1 at a2a.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+INFO:     Started server process [503322]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8027 (Press CTRL+C to quit)
+INFO:httpx:HTTP Request: POST http://43.162.109.76:18080/chainagent/chain/transfer "HTTP/1.1 200 "
+INFO:     124.156.181.138:42639 - "POST / HTTP/1.1" 200 OK
+INFO:     124.156.181.138:35189 - "GET /.well-known/agent.json HTTP/1.1" 200 OK
+/home/ubuntu/a2a/frame_trade_agent/.venv/lib/python3.12/site-packages/google/protobuf/runtime_version.py:98: UserWarning: Protobuf gencode version 5.29.3 is exactly one major version older than the runtime version 6.31.1 at a2a.proto. Please update the gencode to avoid compatibility violations in the next runtime release.
+  warnings.warn(
+INFO:     Started server process [560411]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8027 (Press CTRL+C to quit)
+WARNING:  Unsupported upgrade request.
+INFO:     43.162.109.76:48526 - "POST /AgentApi/getmessages/ HTTP/1.1" 404 Not Found
+INFO:httpx:HTTP Request: POST http://43.162.109.76:18080/chainagent/chain/transfer "HTTP/1.1 200 "
+INFO:     124.156.181.138:39559 - "POST / HTTP/1.1" 200 OK
